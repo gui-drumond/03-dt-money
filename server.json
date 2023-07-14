@@ -1,0 +1,28 @@
+{
+    "transactions":[
+        {
+            "id": 1,
+            "description": "Desenvolvimento de site",
+            "type": "income",
+            "category": "venda",
+            "price": 14000,
+            "createdAt": "2023-07-14T00:06:05.028Z"
+        },
+        {
+            "id": 2,
+            "description": "Desenvolvimento de site",
+            "type": "income",
+            "category": "venda",
+            "price": 12000,
+            "createdAt": "2023-07-14T00:06:05.028Z"
+        },
+        {
+            "id": 3,
+            "description": "Bonecas",
+            "type": "outcome",
+            "category": "compra",
+            "price": 120,
+            "createdAt": "2023-07-14T00:06:05.028Z"
+        }
+    ]
+}
