@@ -57,8 +57,15 @@ export const Content= styled(Dialog.Content)`
             border-radius: 6px;
             margin-top: 1.5rem;
             cursor: pointer;
+            
+            &:disabled{
+                opacity: 0.2;
+                cursor: not-allowed;
+            }
+
             &:hover{
-                
+                background: ${props=>props.theme['green-700']};
+                transition: background-color 0.2s ;
             }
         }
     }

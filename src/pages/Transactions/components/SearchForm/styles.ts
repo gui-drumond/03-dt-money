@@ -26,12 +26,18 @@ import { styled } from "styled-components";
         padding: 1rem;
         background: transparent;
         border: 1px solid  ${props=> props.theme['green-300']};
-        color:  ${props=> props.theme['green-300']};;
+        color:  ${props=> props.theme['green-300']};
         font-weight: bold;
         border-radius: 6px;
+        cursor: pointer;
 
+        &:disabled{
+            opacity: 0.5;
+            cursor: not-allowed;
+            background: ${props=> props.theme['green-300']};
+        }
 
-        &:hover{
+        &:not(:disabled):hover{
             background:  ${props=> props.theme['green-500']};
             border-color: 1px solid  ${props=> props.theme['green-300']};
             color:  ${props=> props.theme['white']};
