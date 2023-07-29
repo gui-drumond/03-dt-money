@@ -22,7 +22,7 @@ export function Summary() {
                 <ArrowCircleDown size={32} color="#f75a68"/>
             </header>
             <strong> 
-                {summary.outcome && '- '}
+                {summary.outcome !== 0  && '- '}
                 {priceFormatter.format(summary.outcome)}
                 
             </strong>

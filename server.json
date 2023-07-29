@@ -1,28 +1,44 @@
 {
-    "transactions":[
-        {
-            "id": 1,
-            "description": "Desenvolvimento de site",
-            "type": "income",
-            "category": "venda",
-            "price": 14000,
-            "createdAt": "2023-07-14T00:06:05.028Z"
-        },
-        {
-            "id": 2,
-            "description": "Desenvolvimento de site",
-            "type": "income",
-            "category": "venda",
-            "price": 12000,
-            "createdAt": "2023-07-14T00:06:05.028Z"
-        },
-        {
-            "id": 3,
-            "description": "Bonecas",
-            "type": "outcome",
-            "category": "compra",
-            "price": 120,
-            "createdAt": "2023-07-14T00:06:05.028Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "venda",
+      "price": 14000,
+      "createdAt": "2023-07-14T00:06:05.028Z"
+    },
+    {
+      "id": 2,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "venda",
+      "price": 12000,
+      "createdAt": "2023-07-14T00:06:05.028Z"
+    },
+    {
+      "id": 3,
+      "description": "Bonecas",
+      "type": "outcome",
+      "category": "compra",
+      "price": 120,
+      "createdAt": "2023-07-14T00:06:05.028Z"
+    },
+    {
+      "id": 4,
+      "category": "Comida",
+      "description": "Hamburguer",
+      "price": 70,
+      "type": "outcome",
+      "createdAt": "2023-07-14T00:06:05.028Z"
+    },
+    {
+      "category": "21",
+      "description": "gui",
+      "price": 21,
+      "type": "outcome",
+      "createdAt": "2023-07-24T21:21:09.101Z",
+      "id": 5
+    }
+  ]
 }
